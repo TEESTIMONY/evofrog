@@ -1,0 +1,27 @@
+EvoFrog Website Assets
+
+Please add the following images to this directory:
+
+1. logo.png - EvoFrog logo
+2. froakie.png - Froakie stage image
+3. frogadier.png - Frogadier stage image
+4. greninja.png - Greninja stage image (main mascot)
+5. hero-bg.png - Background for hero section
+6. about-image.png - Image for about section
+7. pattern-bg.png - Pattern background
+8. froakie-card.png - Froakie evolution card
+9. frogadier-card.png - Frogadier evolution card
+10. greninja-card.png - Greninja evolution card
+11. video-thumbnail.png - Thumbnail for the video
+12. evofrog-video.mp4 - The random fun frog video (not a story)
+13. parallax-1.png - Parallax layer 1
+14. parallax-2.png - Parallax layer 2
+15. parallax-3.png - Parallax layer 3
+16. cursor-frog.png - Small frog cursor icon (transparent PNG, about 30x30px)
+
+Notes:
+- For optimal appearance, use high-resolution images (at least 1200px width for main images)
+- PNG format with transparency is recommended for character images
+- Make sure all images maintain the blue/pink/teal color scheme from the reference image
+- For placeholders during development, you can use free stock photos or generate placeholder images
+- The video doesn't need to be a story - any fun, short animation or clip works! 
