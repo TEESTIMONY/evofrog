@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvoFrog - Evolution on Sui</title>
+    
+    <!-- Preload important images -->
+    <link rel="preload" href="assets/froakie.png" as="image">
+    <link rel="preload" href="assets/frogadier.png" as="image">
+    <link rel="preload" href="assets/greninja.png" as="image">
+    <link rel="preload" href="assets/image.png" as="image">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="EvoFrog Logo" class="logo-img">
+                <span>EvoFrog</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#evolution">Evolution</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#community">Community</a>
+            </div>
+        </div>
+        <!-- Fixed Mobile Menu Button -->
+        <div id="mobile-menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with image.png as background -->
+    <section class="hero" id="hero-with-background">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch-text">EvoFrog</h1>
+                <h2>Evolve. Conquer. Ribbit.</h2>
+                <p>Join the evolutionary journey from Froakie to Greninja on the Sui blockchain</p>
+                <div class="token-info">
+                    <span class="token-badge">$EVF</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#community" class="btn btn-secondary">Join Community</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="evolution-stages">
+                    <img src="assets/froakie.png" alt="Froakie" class="frog-stage" id="froakie">
+                    <img src="assets/frogadier.png" alt="Frogadier" class="frog-stage" id="frogadier">
+                    <img src="assets/greninja.png" alt="Greninja" class="frog-stage active" id="greninja">
+                </div>
+            </div>
+        </div>
+        <div class="hero-bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">What is <span>EvoFrog?</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>EvoFrog is not just another meme coin - it's an evolutionary journey on the Sui blockchain. Inspired by the growth process of a frog from Froakie to Greninja, our token represents transformation, power, and community.</p>
+                    <p>With every milestone we reach, our community evolves and grows stronger. The $EVF token "eats" Sui to upgrade, symbolizing our growth within the ecosystem.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/about-image.png" alt="EvoFrog Concept" class="floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Evolution Section -->
+    <section id="evolution" class="evolution">
+        <div class="container">
+            <h2 class="section-title">The <span>Evolution</span></h2>
+            <div class="evolution-timeline">
+                <div class="timeline-item" data-stage="froakie">
+                    <div class="timeline-image">
+                        <img src="assets/froakie-card.png" alt="Froakie Stage">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Froakie Stage</h3>
+                        <p>The beginning of our journey. Small but full of potential, Froakie represents our initial launch and community building phase.</p>
+                        <ul class="timeline-milestones">
+                            <li>Website Launch</li>
+                            <li>Community Building</li>
+                            <li>Initial Marketing Push</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-stage="frogadier">
+                    <div class="timeline-image">
+                        <img src="assets/frogadier-card.png" alt="Frogadier Stage">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Frogadier Stage</h3>
+                        <p>Growing stronger and faster. As Frogadier, we expand our reach and develop more capabilities within the ecosystem.</p>
+                        <ul class="timeline-milestones">
+                            <li>Exchange Listings</li>
+                            <li>Community Growth</li>
+                            <li>Partnerships Development</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-stage="greninja">
+                    <div class="timeline-image">
+                        <img src="assets/greninja-card.png" alt="Greninja Stage">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Greninja Stage</h3>
+                        <p>The final form - powerful, swift, and respected. Greninja represents our mature project with established utility and presence.</p>
+                        <ul class="timeline-milestones">
+                            <li>Major Exchange Listings</li>
+                            <li>Expanded Utility</li>
+                            <li>Ecosystem Integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">$BUY $EVF <span>$BUY $EVF</span></h2>
+            <div class="video-container">
+                <div class="video-wrapper portrait">
+                    <video id="evolution-video" poster="assets/video-thumbnail.png" controls autoplay muted loop playsinline>
+                        <source src="assets/evofrog-video.MP4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+        <div class="container">
+            <h2 class="section-title">$EVF <span>Tokenomics</span></h2>
+            <div class="tokenomics-content">
+                <div class="tokenomics-info">
+                    <div class="token-card">
+                        <div class="token-symbol">$EVF</div>
+                        <h3>Token Distribution</h3>
+                        <div class="token-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">CONTRACT</span>
+                                <span class="stat-label">RENOUNCED</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">SUPPLY</span>
+                                <span class="stat-label">1BILLION</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">LIQUIDITY</span>
+                                <span class="stat-label">BURNED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2 class="section-title">Join Our <span>Community</span></h2>
+            <p class="community-text">Be part of the evolution! Join our growing community of EvoFrog enthusiasts across various platforms.</p>
+            <div class="social-links">
+                <a href="#" class="social-link" id="telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="#" class="social-link" id="twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+        <div class="community-parallax">
+            <div class="parallax-layer layer-1"></div>
+            <div class="parallax-layer layer-2"></div>
+            <div class="parallax-layer layer-3"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="EvoFrog Logo">
+                    <span>EvoFrog</span>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 EvoFrog. All rights reserved.</p>
+                <p class="disclaimer">$EVF is a meme coin with no intrinsic value or financial return expectation. This website is for entertainment purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Extra script to check frog images status
+        window.addEventListener('load', function() {
+            // Check if images loaded correctly
+            const imageIds = ['froakie', 'frogadier', 'greninja'];
+            
+            imageIds.forEach(id => {
+                const img = document.getElementById(id);
+                if (img) {
+                    console.log(`Image ${id} found in DOM`);
+                    
+                    // Check if image actually loaded
+                    if (img.complete) {
+                        console.log(`Image ${id} loaded successfully`);
+                    } else {
+                        console.warn(`Image ${id} failed to load. Will retry.`);
+                        // Retry loading the image
+                        img.src = img.src + '?retry=' + new Date().getTime();
+                    }
+                } else {
+                    console.error(`Image with ID ${id} not found in DOM`);
+                }
+            });
+            
+            // Force greninja to be visible initially
+            const greninja = document.getElementById('greninja');
+            if (greninja) {
+                greninja.classList.add('active');
+                greninja.style.display = 'block';
+                greninja.style.opacity = '1';
+            }
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,21 @@
+{
+  "name": "evofrog-website",
+  "version": "1.0.0",
+  "description": "EvoFrog meme coin website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "evofrog",
+    "meme coin",
+    "cryptocurrency",
+    "web development"
+  ],
+  "author": "EvoFrog Team",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
